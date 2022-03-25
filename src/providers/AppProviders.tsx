@@ -3,6 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { GlobalStyle, theme } from 'theme';
 import { ScreenSizeLoader } from 'ui/layout/molecules';
+import AbilityProvider from './AbilityProvider';
 
 interface IProps {
   children: React.ReactNode;
@@ -19,10 +20,12 @@ function AppProviders({ children }: IProps): JSX.Element {
           rel="stylesheet"
         />
       </Helmet>
-      <ThemeProvider theme={theme}>
-        <GlobalStyle />
-        <Suspense fallback={<ScreenSizeLoader />}>{children}</Suspense>
-      </ThemeProvider>
+      <AbilityProvider>
+        <ThemeProvider theme={theme}>
+          <GlobalStyle />
+          <Suspense fallback={<ScreenSizeLoader />}>{children}</Suspense>
+        </ThemeProvider>
+      </AbilityProvider>
     </HelmetProvider>
   );
 }
