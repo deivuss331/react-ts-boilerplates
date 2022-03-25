@@ -1,3 +1,9 @@
-# ⚛️ React + TypeScript boilerplates
+## React + TypeScript + Styled components
 
-### See branches to get the right boilerplate
+Note:
+* recommended Node version is **16.13.1**
+* see available scripts in `package.json`
+
+-----------
+
+*This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).*
