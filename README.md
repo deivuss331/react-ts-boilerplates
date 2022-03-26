@@ -1,10 +1,11 @@
-## React + TypeScript + Styled components
+## React + TypeScript + Styled components + i18next
 
 ### What's inside:
 
 - [Axios](https://axios-http.com/) - Promise based HTTP client
 - [Styled components](https://styled-components.com/) - Style your apps without stress
 - [Polished](https://polished.js.org/) - A lightweight toolset for writing styles in JavaScript
+- [i18next](https://react.i18next.com/) - A powerful internationalization framework
 
 ---
 
