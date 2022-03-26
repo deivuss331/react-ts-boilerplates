@@ -1,5 +1,14 @@
 ## React + TypeScript + Styled components + CASL abilities
 
+### What's inside:
+
+- [Axios](https://axios-http.com/) - Promise based HTTP client
+- [Styled components](https://styled-components.com/) - Style your apps without stress
+- [Polished](https://polished.js.org/) - A lightweight toolset for writing styles in JavaScript
+- [CASL abilities](https://casl.js.org/v5/en) - Isomorphic Authorization JavaScript library
+
+---
+
 Note:
 
 - recommended Node version is **16.13.1**
