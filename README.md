@@ -11,7 +11,7 @@
 
 Note:
 
-- recommended Node version is **16.13.1**
+- recommended Node version: **16.13.1**
 - see available scripts in `package.json`
 
 ---
